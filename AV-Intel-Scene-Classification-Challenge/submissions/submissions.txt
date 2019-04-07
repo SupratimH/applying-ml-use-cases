@@ -1,0 +1,1 @@
+All prediction result submission files should be stored here.

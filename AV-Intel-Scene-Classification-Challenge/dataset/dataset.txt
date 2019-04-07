@@ -1,0 +1,8 @@
+Download dataset from https://datahack.analyticsvidhya.com/contest/practice-problem-intel-scene-classification-challe/.
+
+Directory structure should be:
+dataset
+|- train --> directory containing all train and test image files
+|- train.csv
+|- test_WyRytb0
+|- sample_submission_CH2mq5Z.csv
