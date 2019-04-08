@@ -7,7 +7,7 @@ We have all been in situation where we go to a doctor in emergency and find that
 
 <img src="https://www.machinehack.com/wp-content/uploads/2019/02/practo-inside-banner-.jpg" width="400px" height="200px"/>
 
-## Features:
+## Features
 * Qualification: Qualification and degrees held by the doctor
 * Experience: Experience of the doctor in number of years
 * Rating: Rating given by patients
@@ -16,13 +16,13 @@ We have all been in situation where we go to a doctor in emergency and find that
 * Fees: Fees charged by the doctor :point_left: This is the target variable
 * Place: Area and the city where the doctor is located.
 
-## Objective:
+## Objective
 Based on values of above features, predict the consultation fee of a doctor.
 
 ## Evaluaton Metric
 Score = 1 - Root-Mean-Squared-Log-Error (RMSLE)
 
-## Solution Approach:
+## Solution Approach
 1. The first step was extensive EDA of all the features. The dataset is not too messy, but not very clean either. There are significant number of values missing for `Rating`, `Place` and `Miscellaneous_Info`.
 2. All features expect `Fees` are text-based, so normalization is required.
 3. Following are few of the steps performed for clean-up and data munging.
