@@ -51,4 +51,4 @@ Score = 1 - Root-Mean-Squared-Log-Error (RMSLE)
 ## Contact
 :love_letter: For any feedback or questions or just to say "Hi", drop me a line anytime at supratimh@gmail.com.
 
-Thank you for reading this :heart:
+Thank you for reading :heart:
