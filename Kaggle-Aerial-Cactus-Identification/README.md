@@ -23,21 +23,21 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 - The VGG-16 based network gave best result on Kaggle test data. I used pre-trained weights on imagenet for transfer learning (on Keras), and then finetuned all the layers. **The AUC score on Kaggle public LB is 0.9963.**
 - I tried by building a simple CNN network but the AUC on CV set was slightly less.
 - Here's a bit more detail on the approaches (all implementations are done with Tensorflow and Keras):
-#### Approach 1:
+#### [Approach 1](cactus-identification-cnn-and-transfer-learning.ipynb):
 - Used a VGG19 architecture without the top FC layers.
 - Did not use the pre-trained weights, so trained all layers with the available dataset. Aldo, did not create augmented data.
 - Precision, Recall and F1-score on CV set is 1, and AUC is 0.9984.
-#### Approach 2:
+#### [Approach 2](cactus-identification-cnn-data-aug-vgg19.ipynb):
 - Used a VGG19 architecture without the top FC layers, but used pre-trained weights.
 - Did data augmentation using `ImageDataGenerator` class of `Keras`.
 - The best AUC on CV set is 0.9953.
-#### Approach 3:
+#### [Approach 3](cactus-identification-cnn-data-aug-vgg16.ipynb):
 - Used a VGG16 architecture without the top FC layers, but used pre-trained weights.
 - Did data augmentation using `ImageDataGenerator` class of `Keras`.
 - The best AUC on CV set is 0.9968.
 
 ## Instruction to run this code
-- Requirements: Python 3, Numpy, Matplotlib, Tensorflow
+- Requirements: Python 3, Numpy, Matplotlib, Tensorflow and Keras
 - Download the dataset from link provided above
 - Modify the `input file path` and point to your local directory where data the downloaded data is stored
 - If using Kaggle to run these notebooks, then just upload a notebook in a kernel (for this competition) and it'll work fine without any modification.  
