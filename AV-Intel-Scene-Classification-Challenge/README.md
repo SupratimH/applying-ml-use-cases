@@ -69,7 +69,7 @@ Submissions are evaluated on Accuracy between the predicted probability and the 
 - `scene-classification-final-code.ipynb` is the final cleaned up code. Names of each of the other source code file is descriptive enough suggesting the architecture implemented
 - All additional information/instructions are provided in respective notebooks
 
-### Contact
+## Contact
 :love_letter: For any feedback or questions or just to say "Hi", drop me a line anytime at supratimh[at]gmail[dot]com.
 
 Thank you for reading :heart:
