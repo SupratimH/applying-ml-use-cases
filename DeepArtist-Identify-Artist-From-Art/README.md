@@ -1,7 +1,7 @@
 # DeepArtist : Identify Artist from Paintings
 
 ## "I dream of painting and then I paint my dream." - Vincent Van Gogh
-<p align="center"><img src="https://www.vincentvangogh.org/images/paintings/self-portrait-with-straw-hat.jpg" width="400px" height="200px"/></p>
+<p align="center"><img src="https://media.giphy.com/media/WLCACa0Onhbhe/giphy.gif" width="400px" height="200px"/></p>
 
 ## Introduction
 Creation of art is among the highest form of expression of human mind and imagination. The ability of communicating imagination sets us apart from all other beings. Painting, being an expression of visual language, have attracted and connected the brilliant human minds since the dawn of civilization - from early drawings on walls of caves to paper or glass paintings of modern times, from charcoals in prehistoric times to water, oil, or pastel colors of today. We have travelled a long way, and have finally reached a stage where not only humans but computers, another brilliant creation of human minds, is creating paintings.
