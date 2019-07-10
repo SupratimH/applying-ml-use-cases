@@ -4,6 +4,9 @@
 **(2) online challenges and hackathons by Kaggle, Analytics Vidhya, Machine Hack etc.**
 
 ## Index:
+* [DeepArtist : Identify Artist from Art](https://github.com/SupratimH/applying-ml-use-cases/tree/master/DeepArtist-Identify-Artist-From-Art)<br>
+A deep learning model which can identify artists from paintings
+
 * [Intel Scene Classification Challenge](AV-Intel-Scene-Classification-Challenge) (hosted by Analytics Vidhya)<br>
 From a set of images of outdoor scenes, identify and classify the type of scene - mountains, glaciers, streets, buildings, forests etc.
 
