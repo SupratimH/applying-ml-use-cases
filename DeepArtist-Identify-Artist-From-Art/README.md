@@ -35,6 +35,12 @@ Collection of artworks of the 50 most influential artists of all time, scraped f
 ### Predictions:
 * <b>The final model could identify the artists with an approximate accuracy of 99% on training set and 87% on cross-validation set.</b>
 
+## Evaluation Metrics
+* Confusion Matrix
+<img src="evaluation/confusion_matrix.png">
+* Classification Report
+<img src="evaluation/classification_report.JPG">
+
 ## Instruction to run this code
 - Requirements: Python 3, Numpy, Matplotlib, Tensorflow and Keras
 - Download the dataset from link provided above
